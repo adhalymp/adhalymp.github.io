@@ -1,0 +1,77 @@
+
+/* Formato de 3 Columnas */
+
+        .columnas{
+                display: table-cell;
+                padding: 10px;
+                align-content: center;
+                float: left;
+                margin-left: 25px;
+                margin-top: 25px;
+                display: flex;
+}
+        .menulateral{
+                background-color: #6a97d6;
+                padding: 10px;
+                width: 250px;
+                height: 185px;             
+}
+        .menulateral li{
+                list-style: none;
+}
+        .cont{
+                background-color: #3b6e8b;
+                float: left;
+                margin-left: 25px;
+                width: 70%;
+}
+        .cont h3{
+                margin-top: 15px;
+}
+        .cont p{
+                margin: 15px;
+}
+        .publicidad{
+                float: right;
+                margin-left: 25px;
+                width: 25%;
+                margin-top: 20px;
+}
+        .menulateral ul li a:hover, .menulateral ul li a:active{
+                color: #003341;
+}
+        .menulateral ul li a{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-decoration: none;
+                color: #ffffff;
+                line-height: 35px;
+                margin-bottom: 20px;
+}
+        #btn3col{
+                float: left;
+                margin-left: -8px;
+}
+
+/* Formato de Imágenes */
+
+        .cont img{
+                width: 700px;
+                height: 470px;
+                margin-left: 75px;
+                margin-top: 20px;
+                padding: 10px;
+                background-color: #b78bf8;
+}
+        .publicidad img{
+                width: 300px;
+                height: 460px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+}
+
+/* Formato de Videos iframe */
+
+        iframe{
+                margin: 5px;
+                padding-left: 99px;
+}
